@@ -1,0 +1,131 @@
+body{
+    background-color: #bea780;
+}
+
+nav{
+    background-color: #432818;
+}
+
+h3{
+    margin-top: 15px;
+    font-family: 'Judson', serif;    
+    color: #FBB13C;
+}
+
+h2{
+    font-family: 'Kaisei HarunoUmi', serif;    
+ 
+    padding: 5px 10px 8px 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.redes{
+    text-decoration: none;
+    color: #FBB13C;
+    padding-right: 10px;
+    padding-top: 1px;
+}
+
+.redes:hover{
+    color: #ff9d00;
+}
+
+.navegador{
+    padding-top: 20px;
+}
+
+.catalogo{
+    font-family: 'Kaisei HarunoUmi', serif;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #432818;
+    text-align: center;
+    font-weight: bold;
+}
+
+.precios{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.pie{
+    text-align: center;
+}
+
+.tarjetas{
+    color: #212529;
+}
+
+.tarjetas:hover{
+    color: #212529;
+}
+
+.titulos{
+    font-family: 'Poppins', sans-serif;
+}
+
+.redespie{
+    text-decoration: none;
+    color: #e6920d;
+    padding-right: 10px;
+}
+
+.redespie:hover{
+    color: #f8b013;
+}
+
+.descripcion{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.abi{
+    text-decoration: none;
+    margin-top: 15px;
+    color: #FBB13C;
+}
+
+.abi:hover{
+    color: #ffc567;
+}
+
+.barro{
+    color: #FBB13C;
+}
+
+footer{
+    background-color: #432818;
+
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#44B70F;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px rgb(182, 180, 180);
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #44B70F;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+@media screen and (max-width:576px){
+    .redes{
+        margin-left: 15px;
+    }
+}
